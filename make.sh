@@ -107,7 +107,7 @@ cp -f ./keys/private.key $PRIVATE_KEY_FILE
 #     --public-key $PUBLIC_KEY_FILE \
 #     --private-key $PRIVATE_KEY_FILE
 
-echo "[*] generating license..."
+echo "[*] Generating license..."
 LICENSE_FILE=$BUILD_DIR/result.gitlab-license
 LICENSE_JSON_FILE=$BUILD_DIR/license.json
 
